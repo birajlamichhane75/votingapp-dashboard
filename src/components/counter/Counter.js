@@ -11,7 +11,7 @@ const Counter = () => {
              
 
               <div className="dashboard-analytics">
-                <Link to="/organizations" className="dashboard-analytics--card">
+                <Link to="/votingcampaign/votingcampaignstage/vc001" className="dashboard-analytics--card">
                   <div className="dashboard-analytics--card_icon">
                     <GoOrganization />
                   </div>
@@ -29,7 +29,7 @@ const Counter = () => {
                   <h1>0</h1>
                 </Link>
 
-                <Link to="/polls" className="dashboard-analytics--card">
+                <Link to="/votingcampaign" className="dashboard-analytics--card">
                   <div className="dashboard-analytics--card_icon">
                     <MdHowToVote className='icon'/>
                   </div>
@@ -38,7 +38,7 @@ const Counter = () => {
                   <h1>0</h1>
                 </Link>
 
-                <Link to="/candidate" className="dashboard-analytics--card">
+                <Link to="/votingcampaign/campaigncandidate/vc001" className="dashboard-analytics--card">
                   <div className="dashboard-analytics--card_icon">
                     <i className="fa-regular fa-memo-circle-check"></i>
                   </div>

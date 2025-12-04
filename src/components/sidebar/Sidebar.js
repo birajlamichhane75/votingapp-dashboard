@@ -95,7 +95,7 @@ const menuItems = [
       },
     ]
   },
-  { href: "/api-documentation", title: "API Documentation", iconName: "fa-book" },
+  // { href: "/api-documentation", title: "API Documentation", iconName: "fa-book" },
   { href: "/faq", title: "FAQ", iconName: "fa-question-circle" },
   { href: "/feedback", title: "Feedback", iconName: "fa-comment-alt" },
   {
@@ -144,12 +144,12 @@ export default function Sidebar() {
     >
       <div className="sidebar-top">
         <div className="sidebar-top--logo">
-          <img
+          {/* <img
             src={LOGO}
             alt="Esquare logo"
             className="sidebar-top--logo__icon"
             style={{display:systemSelector.menu ? "block" : "none"}}
-          />
+          /> */}
 
           <div className="sidebar-top--logo__back" onClick={handleToggleBar} style={{display: systemSelector.menu ? "flex": "none" }}>
             <IoChevronBackSharp />
