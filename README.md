@@ -12,8 +12,6 @@ Managing voting data manually is time-consuming and prone to errors. This dashbo
 - Role-based authentication for secure access  
 - Activity logs for monitoring platform usage  
 
-## Screenshots
-(Add dashboard screenshots here)
 
 ## Tech Stack
 React  
